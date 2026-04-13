@@ -15,12 +15,12 @@ export function Hero() {
           <img
             src={BUSINESS_INFO.media.cover}
             alt="Coir Manufacturing"
-            className="w-full h-full object-cover object-bottom"
+            className="w-full h-full object-cover object-[center_75%]"
             referrerPolicy="no-referrer"
           />
         </motion.div>
       </div>
-
+      
       {/* Bottom Part without Image */}
       <div className="bg-brand-50 pt-12 pb-16">
         <div className="container mx-auto px-4">
