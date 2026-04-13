@@ -43,10 +43,10 @@ export const BUSINESS_INFO = {
     "Eco-Friendly Products"
   ],
   products: [
-    { name: "Coir fiber", price: "₹20/kg", image: "/product-1.png" },
-    { name: "Cocopeat powder", price: "₹15/kg", image: "/product-2.png" },
-    { name: "Cocopeat block", price: "₹30/kg", image: "/product-3.png" },
-    { name: "Coir ropes", price: "₹45/kg", image: "/product-4.png" }
+    { name: "Coir fiber", price: "₹20/kg", image: "product-1.png" },
+    { name: "Cocopeat powder", price: "₹15/kg", image: "product-2.png" },
+    { name: "Cocopeat block", price: "₹30/kg", image: "product-3.png" },
+    { name: "Coir ropes", price: "₹45/kg", image: "product-4.png" }
   ],
   ratings: {
     average: 4.4,
@@ -60,12 +60,12 @@ export const BUSINESS_INFO = {
     }
   },
   media: {
-    logo: "https://picsum.photos/seed/coir-logo/200/200", // Fallback since /images/ might not exist
-    cover: "/hero-bg.png",
+    logo: "https://picsum.photos/seed/coir-logo/200/200",
+    cover: "hero-bg.png",
     gallery: [
-      "/gallery-1.png",
-      "/gallery-2.png",
-      "/gallery-3.png"
+      "gallery-1.png",
+      "gallery-2.png",
+      "gallery-3.png"
     ]
   },
   owner: {
