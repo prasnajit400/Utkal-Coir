@@ -15,7 +15,7 @@ export function Hero() {
           <img
             src={BUSINESS_INFO.media.cover}
             alt="Coir Manufacturing"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-bottom"
             referrerPolicy="no-referrer"
           />
         </motion.div>
