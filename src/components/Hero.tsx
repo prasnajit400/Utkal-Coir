@@ -11,11 +11,11 @@ export function Hero() {
     <section id="home" className="flex flex-col">
       {/* Top Part with Image */}
       <div className="relative h-[40vh] min-h-[300px] w-full overflow-hidden mt-20">
-        <motion.div style={{ y }} className="absolute inset-0 z-0">
+        <motion.div className="absolute inset-0 z-0">
           <img
             src={BUSINESS_INFO.media.cover}
             alt="Coir Manufacturing"
-            className="w-full h-[120%] object-cover -mt-[10%]"
+            className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
           />
         </motion.div>
