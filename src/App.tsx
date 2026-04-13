@@ -63,7 +63,7 @@ export default function App() {
                 className="md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden relative group shadow-xl"
               >
                 <img
-                  src="/about-img.png"
+                  src="about-img.png"
                   alt="About Utkal Coir"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
